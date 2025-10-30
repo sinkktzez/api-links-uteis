@@ -10,7 +10,7 @@ jobs:
     container:
         image: maven:3.9.9-eclipse-temurim-21
     steps:
-        - name: Checkout código
+        - name: Checkout código func
           uses: actions/checkout@v4
  
         - name: Executar testes no container
